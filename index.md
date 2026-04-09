@@ -36,7 +36,7 @@ I approached the project using the **Ask → Prepare → Process → Analyze →
 
 ## Dashboard
 
-I built an interactive Tableau dashboard using CMS hospital quality data to explore patterns in unplanned hospital visits and readmission-related performance across hospitals, states, and measures.
+I built an interactive Tableau dashboard using open source hospital quality data to explore patterns in unplanned hospital visits and readmission-related performance across hospitals, states, and measures.
 
 The dashboard includes:
 - average score by measure
