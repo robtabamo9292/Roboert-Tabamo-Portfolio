@@ -23,7 +23,7 @@ My goal with this project was to better understand how hospitals differ on selec
 ## Tools Used
 
 - Tableau
-- CMS Provider Data
+- CMS.gov Provider Data
 
 ## Key Questions
 
@@ -88,4 +88,4 @@ The dashboard is structured to show:
 
 ## Limitations
 
-This dashboard is descriptive and exploratory. It is intended to surface patterns in publicly available CMS data, not make causal claims about hospital quality. Results should be interpreted within the context of each selected CMS measure rather than as a single overall ranking of hospitals.
+This project purely descriptive and exploratory. It is intended to surface patterns in publicly available CMS data, not make causal claims about hospital quality. Results should be interpreted within the context of each selected CMS measure rather than as a single overall ranking of hospitals.
