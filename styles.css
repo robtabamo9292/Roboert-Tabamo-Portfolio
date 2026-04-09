@@ -1,14 +1,26 @@
+:root {
+  --bg: #F6F3EE;
+  --surface: #FFFFFF;
+  --hero: #232734;
+  --nav: #2D3240;
+  --text: #1F2430;
+  --muted: #5F6775;
+  --accent: #C6AE7B;
+  --accent-dark: #AE9461;
+  --border: #E7E1D8;
+}
+
 body {
   margin: 0;
   font-family: "Inter", Arial, sans-serif;
-  background: #f4f4f2;
-  color: #1f232b;
-  line-height: 1.6;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.65;
 }
 
 .hero {
-  background: #23262f;
-  color: #ffffff;
+  background: var(--hero);
+  color: white;
   text-align: center;
   padding: 120px 20px 90px;
 }
@@ -19,11 +31,11 @@ body {
 }
 
 .hero h1 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Playfair Display", Georgia, serif;
   font-size: 84px;
-  font-weight: 700;
-  margin: 0 0 20px;
+  font-weight: 800;
   letter-spacing: -1px;
+  margin: 0 0 18px;
 }
 
 .hero p {
@@ -44,19 +56,20 @@ body {
   color: #ffffff;
   font-size: 34px;
   text-decoration: none;
-  transition: transform 0.2s ease, opacity 0.2s ease;
+  transition: transform 0.2s ease, opacity 0.2s ease, color 0.2s ease;
 }
 
 .hero-icons a:hover {
   transform: translateY(-3px);
-  opacity: 0.85;
+  opacity: 0.9;
+  color: var(--accent);
 }
 
 .navbar {
   display: flex;
   justify-content: center;
   gap: 48px;
-  background: #2d3038;
+  background: var(--nav);
   padding: 18px 20px;
   position: sticky;
   top: 0;
@@ -68,25 +81,26 @@ body {
   text-decoration: none;
   font-weight: 600;
   font-size: 18px;
-  transition: opacity 0.2s ease;
+  transition: color 0.2s ease, opacity 0.2s ease;
 }
 
 .navbar a:hover {
-  opacity: 0.8;
+  color: var(--accent);
+  opacity: 1;
 }
 
 .section {
   max-width: 1120px;
   margin: 0 auto;
-  padding: 90px 24px;
+  padding: 88px 24px;
 }
 
 .section h2 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Playfair Display", Georgia, serif;
   text-align: center;
   font-size: 64px;
   margin: 0 0 18px;
-  color: #1f232b;
+  color: var(--text);
 }
 
 .section h2::after {
@@ -95,17 +109,17 @@ body {
   width: 70px;
   height: 4px;
   margin: 18px auto 0;
-  background: #c8b07a;
+  background: var(--accent);
   border-radius: 999px;
 }
 
 #about p,
 #contact p {
-  max-width: 760px;
+  max-width: 780px;
   margin: 0 auto 16px;
   font-size: 21px;
   text-align: center;
-  color: #444;
+  color: var(--muted);
 }
 
 .projects-grid {
@@ -115,11 +129,11 @@ body {
 }
 
 .project-card {
-  background: #ffffff;
+  background: var(--surface);
   border-radius: 14px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
   overflow: hidden;
-  border: 1px solid rgba(0, 0, 0, 0.04);
+  border: 1px solid var(--border);
 }
 
 .project-card-content {
@@ -127,16 +141,16 @@ body {
 }
 
 .project-card-content h3 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Playfair Display", Georgia, serif;
   font-size: 42px;
-  line-height: 1.2;
+  line-height: 1.15;
   margin: 0 0 18px;
-  color: #1f232b;
+  color: var(--text);
 }
 
 .project-card-content p {
   font-size: 20px;
-  color: #555;
+  color: var(--muted);
   margin: 0 0 28px;
 }
 
@@ -158,46 +172,49 @@ body {
 }
 
 .btn-dark {
-  background: #1f232b;
+  background: var(--hero);
   color: #ffffff;
 }
 
 .btn-dark:hover {
-  background: #151821;
+  background: #1A1E2A;
 }
 
 .btn-light {
-  border: 2px solid #1f232b;
-  color: #1f232b;
-  background: #ffffff;
+  border: 2px solid var(--hero);
+  color: var(--hero);
+  background: var(--surface);
 }
 
 .btn-light:hover {
-  background: #f2f2f2;
+  background: #F1ECE3;
+  border-color: var(--accent-dark);
+  color: var(--text);
 }
 
 .skills-inline {
-  max-width: 900px;
+  max-width: 920px;
   margin: 0 auto;
   text-align: center;
   font-size: 24px;
   line-height: 2;
-  color: #333;
+  color: var(--text);
 }
 
 .bullet {
   margin: 0 12px;
-  color: #c8b07a;
+  color: var(--accent);
   font-weight: 700;
 }
 
 #contact a {
-  color: #1f232b;
+  color: var(--text);
   text-decoration: none;
   font-weight: 600;
 }
 
 #contact a:hover {
+  color: var(--accent-dark);
   text-decoration: underline;
 }
 
@@ -224,7 +241,7 @@ body {
   }
 
   .section {
-    padding: 70px 20px;
+    padding: 68px 20px;
   }
 
   .section h2 {
