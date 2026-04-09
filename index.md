@@ -89,6 +89,7 @@ The dashboard is structured to show:
 - The Avg Score by State view should be interpreted cautiously because it averages valid scores across measures with very different scales. This makes it more useful as a descriptive overview than as a strict state ranking. Small territories with very few valid records appear at the top of the view, for example, VI has 12 valid scores and MP has 8, which further limits comparability at the geography level.
 
 - For a more apples-to-apples geographic comparison, a single high-coverage measure is more defensible. On HWR, among geographies with at least 20 valid hospitals, the lowest average readmission rates are in Maryland (14.43), Washington (14.45), and Oregon (14.48), while the highest are in Puerto Rico (15.70), Massachusetts (15.64), and Florida (15.50). These differences are informative, but they should still be interpreted in the context of hospital mix and reporting volume.
+  
 - The Hospital Drilldown view is most meaningful when used exactly as designed in the workbook: one selected measure at a time. It is useful for identifying relative leaders within a specific metric, but it should not be interpreted as an overall hospital ranking across all CMS quality measures.
 
 
