@@ -49,19 +49,23 @@ The dashboard includes:
 
 ### Dashboard Overview
 
-![Hospital Dashboard Overview](assets/images/dashboard-overview.png)
+![Hospital Dashboard Overview](Main%20Dashboard.png)
 
-### Selected Measure Example
+### Avg Score by Measure
 
-![Dashboard with Selected Measure](assets/images/dashboard-selected-measure.png)
+![Avg Score by Measure](Avg%20Score%20by%20Measure.png)
+
+### Avg Score by State
+
+![Avg Score by State](Avg%20Score%20by%20State.png)
 
 ### Hospital Drilldown
 
-![Hospital Drilldown](assets/images/hospital-drilldown.png)
+![Hospital Drilldown](Hospital%20Drilldown.png)
 
 ### Compared Group by Measure
 
-![Compared Group by Measure](assets/images/compared-group-by-measure.png)
+![Compared Group by Measure](Compared%20Goub%20by%20Measure.png)
 
 ## Methodology
 
