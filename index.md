@@ -60,7 +60,7 @@ The dashboard includes:
 
 ### Compared Group by Measure
 
-![Compared Group by Measure](Compared%20Goub%20by%20Measure.png)
+![Compared Group by Measure](Compared%20Group%20by%20Measure.png)
 
 ## Methodology
 
