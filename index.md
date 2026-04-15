@@ -17,8 +17,8 @@ My goal with this project was to better understand how hospitals differ on selec
 
 ## Data Sources
 
-- Unplanned Hospital Visits - Hospital
-- https://data.cms.gov/provider-data/dataset/632h-zaca?utm_source=chatgpt.com
+- Unplanned Hospital Visits
+- https://data.cms.gov/provider-data/dataset/632h-zaca?utm_source
 
 ## Tools Used
 
